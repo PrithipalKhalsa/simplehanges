@@ -34,7 +34,11 @@ useEffect(() => {
 
   return (
     <div className="display-wrapper" >
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 53a39e5f3d4ed12a03f333233a955157cb13b743
       <div className="score">{j}/{rounds} Reps</div>
       <div className={['numbers-wrapper', 'stage-'+i].join(' ')}>
 
