@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3154c008b6efb4a5aa0b345f0acd2135",
+    "revision": "1ac9973dd729559b5651ef682b810915",
     "url": "/simplehanges/index.html"
   },
   {
-    "revision": "9ee569de55bb524bd6e3",
+    "revision": "cc4a3e8bed3a418801f1",
     "url": "/simplehanges/static/css/main.e9cdcbd5.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/simplehanges/static/js/2.85b8ade9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9ee569de55bb524bd6e3",
-    "url": "/simplehanges/static/js/main.0b19e387.chunk.js"
+    "revision": "cc4a3e8bed3a418801f1",
+    "url": "/simplehanges/static/js/main.6a18a1cd.chunk.js"
   },
   {
     "revision": "e124bffcec06f73d896b",
