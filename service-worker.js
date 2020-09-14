@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/simplehanges/precache-manifest.b0322f031e320ea4319e04b2760dcb4e.js"
+  "/simplehanges/precache-manifest.62be6ac198d58a678314b0a637140e17.js"
 );
 
 self.addEventListener('message', (event) => {
