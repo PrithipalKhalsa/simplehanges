@@ -1,0 +1,105 @@
+
+.numbers{
+  font-size: 8em;
+  position: absolute;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
+
+}
+
+.numbers-wrapper{
+    min-width: 300px;
+    background: salmon;
+    min-height: 300px;
+    border-radius: 100%;
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+   position: relative;
+}
+.score {
+    font-size: 1.9em;
+}
+.sets {
+    font-size: 1.9em;
+    float:right;
+}
+.stage--1{
+
+}
+.stage-0{
+  background-color: #81b29a;
+}
+.stage-1{
+ background-color: #e07a5f;
+}
+.stage-2{
+ background-color: #aed9e0;
+}
+
+
+
+.circle {
+  border: solid 4px black;
+  z-index:2;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.paused {
+  animation-play-state: paused !important;
+}
+
+.circle {
+  -webkit-animation: grow 7s infinite;
+  background-image: url('/sounds/volume-mute-solid.svg');
+
+}
+
+
+@keyframes grow {
+  0% {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+  }
+
+
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.volume-checkbox{
+  float: right;
+  cursor: pointer;
+}
+.volume-checkbox input[type="checkbox"],
+.volume-checkbox .checked {
+    display: none;
+}
+.volume-checkbox input[type="checkbox"],
+.volume-checkbox .checked {
+    display: none;
+}
+
+.volume-checkbox input[type="checkbox"]:checked ~ .checked
+{
+    display: inline-block;
+}
+
+.volume-checkbox input[type="checkbox"]:checked ~ .unchecked
+{
+
+    display: none;
+}
