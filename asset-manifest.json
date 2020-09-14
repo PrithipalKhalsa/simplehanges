@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/simplehangs/static/css/main.e9cdcbd5.chunk.css",
+    "main.js": "/simplehangs/static/js/main.bec8eac3.chunk.js",
+    "main.js.map": "/simplehangs/static/js/main.bec8eac3.chunk.js.map",
+    "runtime-main.js": "/simplehangs/static/js/runtime-main.ff68ebb5.js",
+    "runtime-main.js.map": "/simplehangs/static/js/runtime-main.ff68ebb5.js.map",
+    "static/js/2.85b8ade9.chunk.js": "/simplehangs/static/js/2.85b8ade9.chunk.js",
+    "static/js/2.85b8ade9.chunk.js.map": "/simplehangs/static/js/2.85b8ade9.chunk.js.map",
+    "index.html": "/simplehangs/index.html",
+    "precache-manifest.cc8a0eb1d4c2d5e05974801873fb45e6.js": "/simplehangs/precache-manifest.cc8a0eb1d4c2d5e05974801873fb45e6.js",
+    "service-worker.js": "/simplehangs/service-worker.js",
+    "static/css/main.e9cdcbd5.chunk.css.map": "/simplehangs/static/css/main.e9cdcbd5.chunk.css.map",
+    "static/js/2.85b8ade9.chunk.js.LICENSE.txt": "/simplehangs/static/js/2.85b8ade9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ff68ebb5.js",
+    "static/js/2.85b8ade9.chunk.js",
+    "static/css/main.e9cdcbd5.chunk.css",
+    "static/js/main.bec8eac3.chunk.js"
+  ]
+}
