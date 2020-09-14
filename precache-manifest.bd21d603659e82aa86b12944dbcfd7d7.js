@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8d176d76cfa890db0c213bd09e8829dc",
+    "revision": "06d7c3d239ec27a89950de409e5cd67c",
     "url": "/simplehanges/index.html"
   },
   {
-    "revision": "53a036c06487a0e35343",
-    "url": "/simplehanges/static/css/main.aeb315d8.chunk.css"
+    "revision": "8f3d1011cf00a8dba115",
+    "url": "/simplehanges/static/css/main.e1bc02bf.chunk.css"
   },
   {
-    "revision": "f5be2bd69591e9f6ba31",
-    "url": "/simplehanges/static/js/2.1555a497.chunk.js"
+    "revision": "eba1da33618a6920de04",
+    "url": "/simplehanges/static/js/2.2b88b7aa.chunk.js"
   },
   {
-    "revision": "c5930055a21c439b1783da4e9887b5d2",
-    "url": "/simplehanges/static/js/2.1555a497.chunk.js.LICENSE.txt"
+    "revision": "6bc1839410a18146c64a59891faefdd8",
+    "url": "/simplehanges/static/js/2.2b88b7aa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "53a036c06487a0e35343",
-    "url": "/simplehanges/static/js/main.5be4df9e.chunk.js"
+    "revision": "8f3d1011cf00a8dba115",
+    "url": "/simplehanges/static/js/main.ca5f451d.chunk.js"
   },
   {
     "revision": "e124bffcec06f73d896b",
