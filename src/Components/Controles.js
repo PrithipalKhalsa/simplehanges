@@ -21,7 +21,7 @@ return (
       :
       <div className="sqr-btn" onClick={()=>pause()}>Pause</div>
       }
-    
+
     </div>
   );
 }

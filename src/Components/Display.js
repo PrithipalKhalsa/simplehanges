@@ -20,8 +20,6 @@ const Display = ({ mute, setMute, sets,total, minutes,seconds,j,rounds,displayRe
 
 useEffect(() => {
      playing&&!mute ? audio.play() : audio.pause();
-
-     return ()=>{setMute(false); console.log("DONE!"+mute)}
    },
    [playing]
  );
@@ -36,10 +34,7 @@ useEffect(() => {
 
   return (
     <div className="display-wrapper" >
-    {!childMute
-    ?<div className="icono-volumeMedium vol" onClick={()=>setChildMute(!childMute)}></div>
-    :<div className="icono-volume vol" onClick={()=>setChildMute(!childMute)}></div>
-    }
+  
       <div className="score">{j}/{rounds} Reps</div>
       <div className={['numbers-wrapper', 'stage-'+i].join(' ')}>
 

@@ -8,19 +8,20 @@ import Display from './Display';
 
 const Repeaters = ({time,map,rounds}) => {
   const [toggle, setToggle] = useState(false);
-  const [mute, setMute] = useState(true);
+  // const [mute, setMute] = useState(true);
   var displayRef = React.createRef();
   var i=-1
   var j=1
   var sets=0
-  // var mute=false
+  var mute=true
   useEffect(() => {
       console.log("rep render")
      }
    );
+
    useEffect(() => {
-       console.log("rep update "+mute)
-      }
+       console.log("mute has changed "+mute)
+      },[mute]
     );
 
 const Completionist = React.memo(() =>   {
@@ -45,18 +46,25 @@ const renderer = ({hours, minutes, seconds, completed }) => {
   else {
     // Render a countdown
     if(minutes>0)
-    return <Display mute={mute} setMute={setMute} sets={sets} total={map[i]} toggle={toggle} minutes={minutes} seconds={seconds} j={j} rounds={rounds} displayRef={displayRef} i={i}/>;
+    return <Display mute={mute} sets={sets} total={map[i]} toggle={toggle} minutes={minutes} seconds={seconds} j={j} rounds={rounds} displayRef={displayRef} i={i}/>;
     else
-      return <Display mute={mute} setMute={setMute} sets={sets} total={map[i]} toggle={toggle} seconds={seconds} j={j} rounds={rounds} displayRef={displayRef} i={i}/>;
+      return <Display mute={mute} sets={sets} total={map[i]} toggle={toggle} seconds={seconds} j={j} rounds={rounds} displayRef={displayRef} i={i}/>;
   }
 };
 
   return (
     <div className="inner-app-wrapper">
+    <label class="volume-checkbox">
 
+      <input type="checkbox" onClick={()=>mute=!mute}/>
+        <i class="fa fa-fw fa-volume-mute fa-3x unchecked"></i>
+        <i class="fa fa-fw fa-volume-up  fa-3x checked"></i>
+    </label>
     <Countdown
     date={Date.now() + 5000}
     renderer={renderer}/>
+
+
   </div>
 
   );
