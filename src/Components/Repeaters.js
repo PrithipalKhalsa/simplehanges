@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Countdown from 'react-countdown';
+import {BrowserView} from "react-device-detect";
 
  import './Components.css';
 
 import Display from './Display';
-
 
 const Repeaters = ({time,map,rounds}) => {
   const [toggle, setToggle] = useState(false);
@@ -54,12 +54,13 @@ const renderer = ({hours, minutes, seconds, completed }) => {
 
   return (
     <div className="inner-app-wrapper">
+    <BrowserView>
     <label class="volume-checkbox">
-
       <input type="checkbox" onClick={()=>mute=!mute}/>
         <i class="fa fa-fw fa-volume-mute fa-3x unchecked"></i>
         <i class="fa fa-fw fa-volume-up  fa-3x checked"></i>
     </label>
+    </BrowserView>
     <Countdown
     date={Date.now() + 5000}
     renderer={renderer}/>

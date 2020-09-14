@@ -66,6 +66,7 @@ a{
 h1{
   text-align: center;
   position: relative;
+  margin-top: 0px;
 
 }
 h1:after {

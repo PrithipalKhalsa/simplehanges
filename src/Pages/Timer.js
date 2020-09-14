@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import queryString from 'query-string';
+import { Link } from "react-router-dom";
 
 // import './Components.css';
 import Repeaters from '../Components/Repeaters';
@@ -26,7 +27,7 @@ function clickEvent(e){
 }
   return (
     <div className= "app-wrapper" onMouseOver={(e)=>clickEvent(e)}>
-        <h1>Simple Hangs</h1>
+        <div className="title-wrapper">  <Link to={`/simplehanges`}><i class="fas fa-chevron-left"></i></Link><h1>Simple Hangs</h1></div>
     <Repeaters  map={map} rounds={rounds}/>
     </div>
   );
