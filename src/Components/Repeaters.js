@@ -12,7 +12,7 @@ const Repeaters = ({time,map,rounds}) => {
   var displayRef = React.createRef();
   var i=-1
   var j=1
-  var sets=0
+  var sets=1
   var mute=true
   useEffect(() => {
       console.log("rep render")

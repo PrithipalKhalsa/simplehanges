@@ -26,15 +26,15 @@
   background: #b0cfc0;
 }
 .sqr-btn {
-  font-size: 2em;
-  text-decoration: none;
-  cursor: pointer;
-  width: 106px;
-  border-radius: 13%;
-  background: #b0cfc0;
-  text-align: center;
-  margin: 15% auto;
-  padding: 2%;
+    font-size: 2em;
+    text-decoration: none;
+    cursor: pointer;
+    width: 218px;
+    border-radius: 5%;
+    background: #b0cfc0;
+    text-align: center;
+    margin: 15% auto;
+    padding: 5%;
 }
 .incr{
   font-size: 3em;
@@ -62,4 +62,19 @@ position: relative;
 a{
   color: black;
  text-decoration: none;
+}
+h1{
+  text-align: center;
+  position: relative;
+
+}
+h1:after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    right: 0;
+    height: 0.5em;
+    border-top: 2px solid black;
+    z-index: -1;
 }

@@ -34,11 +34,7 @@ useEffect(() => {
 
   return (
     <div className="display-wrapper" >
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> 53a39e5f3d4ed12a03f333233a955157cb13b743
       <div className="score">{j}/{rounds} Reps</div>
       <div className={['numbers-wrapper', 'stage-'+i].join(' ')}>
 
@@ -52,7 +48,7 @@ useEffect(() => {
        <div  className={!toggle?"circle":"circle paused"} style={divStyle}></div>
 
       </div>
-      <div className="sets">{sets} Sets</div>
+      <div className="sets">Set #{sets} </div>
       { i!=-1&&
          <Controles toggle={toggle} setToggle={setToggle} displayRef={displayRef}
 />
