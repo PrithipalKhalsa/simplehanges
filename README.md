@@ -1,6 +1,6 @@
 ## Simple Hangs
 
-
+[Live Demo](https://prithipalkhalsa.github.io/simplehanges/)
 You know the deal:
 
 `$ git clone https://github.com/PrithipalKhalsa/simplehanges.git`
